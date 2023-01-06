@@ -36,13 +36,23 @@
 %\useoutertheme{default}
 %\useinnertheme[shadow=true]{rounded}
 
-%\xdefinecolor{tsinghua}{rgb}{0.455,0.204,0.506}  %RGB#82318E
-\xdefinecolor{tsinghua}{rgb}{0.202,0.100,0.49}  %RGB#82318E
+
+%xdefinecolor定义颜色：
+%bjtu是颜色名称，RGB的取值范围为[0~255]，rgb的取值范围为[0~1]
+%清华大学紫色风格#743481
+%\xdefinecolor{bjtu}{rgb}{0.455,0.204,0.506}
+%北交主页蓝色风：#005BAC
+%\xdefinecolor{bjtu}{RGB}{0,91,72}
+%北交Slide深蓝色风：#023174
+\xdefinecolor{bjtu}{RGB}{2,49,116}
 
 
-\setbeamercolor{footline}{bg=tsinghua}
-\setbeamercolor{frametitle}{bg=tsinghua,fg=white}
-\setbeamercolor{title}{bg=tsinghua}
+%202 62 71
+\xdefinecolor{hongse}{RGB}{200,62,71}
+
+\setbeamercolor{footline}{bg=bjtu}
+\setbeamercolor{frametitle}{bg=bjtu, fg=white}
+\setbeamercolor{title}{bg=bjtu}
 \setbeamerfont{frametitle}{size=\large}
 %\setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{bibliography item}[text]
@@ -56,8 +66,8 @@
 \setbeamercolor{titlelike}{parent=palette primary}
 
 %% try
-\setbeamercolor{block title}{bg=tsinghua,fg=white}
-\setbeamercolor*{block title example}{use={normal text,example text},bg=white,fg=tsinghua}
+\setbeamercolor{block title}{bg=bjtu,fg=white}
+\setbeamercolor*{block title example}{use={normal text,example text},bg=white,fg=bjtu}
 \setbeamercolor{fine separation line}{}
 \setbeamercolor{item projected}{fg=white}
 \setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
@@ -68,9 +78,9 @@
 \setbeamercolor{section in sidebar}{fg=brown}
 \setbeamercolor{section in sidebar shaded}{fg=grey}
 \setbeamercolor{separation line}{}
-\setbeamercolor{sidebar}{bg=tsinghua}
+\setbeamercolor{sidebar}{bg=bjtu}
 \setbeamercolor{sidebar}{parent=palette primary}
-\setbeamercolor{structure}{fg=tsinghua}
+\setbeamercolor{structure}{fg=bjtu}
 \setbeamercolor{subsection in sidebar}{fg=brown}
 \setbeamercolor{subsection in sidebar shaded}{fg=grey}
 \AtBeginSection[]{
