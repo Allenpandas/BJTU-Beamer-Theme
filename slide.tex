@@ -7,9 +7,9 @@
 \usepackage{graphicx,pstricks,listings,stackengine}
 
 \author{Allenpandas}
-\title{基于***的***方法研究（这是标题的位置）}
-\subtitle{研究生论文开题报告(这是副标题的位置)}
-\institute{北京交通大学·计算机与信息技术学院}
+\title{基于***的***方法研究（这是标题）}
+\subtitle{研究生论文开题报告(这是副标题)}
+\institute{北京交通大学·****学院}
 \date{2022年12月30日}
 \usepackage{bjtu}
 
@@ -139,20 +139,20 @@
 
 \begin{frame}{图形与分栏}
 	% 左侧	
-    \begin{minipage}[c]{0.4\linewidth}
+    \begin{minipage}[c]{0.6\linewidth}
     	\begin{itemize}
     		\item 制作Slide时，图文并茂更能吸引人，因此需要在适当的位置插入图片。
     		\item 使用minipage标签，可以实现分栏。
     	\end{itemize}
-    \end{minipage}
+    \end{minipage}  
 %	\hspace{1cm}
     % 右侧
-    \begin{minipage}{0.5\linewidth}
+    \begin{minipage}{0.3\linewidth}
         \medskip
         %\hspace{2cm}
         \begin{figure}[h]
             \centering
-            \includegraphics[height=.4\textheight]{pic/dtmf.pdf}
+            \includegraphics[height=.7\textheight]{pic/landscape.jpeg}
         \end{figure}
     \end{minipage}
 \end{frame}
@@ -160,15 +160,7 @@
 
 
 
-
-
-
-
-
-
-
-
-\begin{frame}[fragile]{\LaTeX{} 常用命令}
+\begin{frame}[fragile]{Latex常用命令}
     \begin{exampleblock}{命令}
         \centering
         \footnotesize
@@ -195,52 +187,8 @@
     \end{exampleblock}
 \end{frame}
 
-\begin{frame}[fragile]{\LaTeX{} 环境命令举例}
-    \begin{minipage}{0.5\linewidth}
-\begin{lstlisting}[language=TeX]
-\begin{itemize}
-  \item A \item B
-  \item C
-  \begin{itemize}
-    \item C-1
-  \end{itemize}
-\end{itemize}
-\end{lstlisting}
-    \end{minipage}\hspace{1cm}
-    \begin{minipage}{0.3\linewidth}
-        \begin{itemize}
-            \item A
-            \item B
-            \item C
-            \begin{itemize}
-                \item C-1
-            \end{itemize}
-        \end{itemize}
-    \end{minipage}
-    \medskip
-    \pause
-    \begin{minipage}{0.5\linewidth}
-\begin{lstlisting}[language=TeX]
-\begin{enumerate}
-  \item 巨佬 \item 大佬
-  \item 萌新
-  \begin{itemize}
-    \item[n+e] 瑟瑟发抖
-  \end{itemize}
-\end{enumerate}
-\end{lstlisting}
-    \end{minipage}\hspace{1cm}
-    \begin{minipage}{0.3\linewidth}
-        \begin{enumerate}
-            \item 巨佬
-            \item 大佬
-            \item 萌新
-            \begin{itemize}
-                \item[n+e] 瑟瑟发抖
-            \end{itemize}
-        \end{enumerate}
-    \end{minipage}
-\end{frame}
+
+
 
 \begin{frame}[fragile]{\LaTeX{} 数学公式}
     \begin{columns}
