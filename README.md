@@ -4,6 +4,7 @@
 本Beamer主题模板最初参考了[清华大学Beamer主题模板](https://github.com/tuna/THU-Beamer-Theme)，后在该模板的基础上修改了主题配色、增加了部分代码的使用说明，例如："章"、"节"、"小节"的使用，增加了表格的title，增加了北京交通大学的校徽（标量图），在分栏页中增加了文字与图片的配合使用方法，增加了英文的参考文献以及引用的代码等。
 
 欢迎各位BJTU的小红果儿们提Issue，为本仓库提出宝贵的意见；欢迎大家watch、star⭐️、folk、follow。
+
 本仓库地址：https://github.com/Allenpandas/BJTU-Beamer-Theme
 
 
